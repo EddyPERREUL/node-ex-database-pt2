@@ -2,13 +2,13 @@
 
 Ecrivez une requête SQL qui affiche tous les titres et descriptions des films dont la description contient le mot Amazing.
 
-#Input
+- Input
 
 ```sql
 dvdrental=> SELECT title, description FROM film WHERE description LIKE '%Amazing%';
 ```
 
-#Output
+- Output
 
 ```sql
          title         |                                                          description
